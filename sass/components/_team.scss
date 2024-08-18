@@ -73,7 +73,7 @@
 
 .team-social-media-item:is(:hover, :focus),
 .footer-social-media-item:is(:hover, :focus) {
-  background: var(--logo-color);
+  background: $logo-color;
   cursor: pointer;
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 

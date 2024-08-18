@@ -65,7 +65,7 @@ input {
 }
 
 body {
-  color: var(--main-text-color);
+  color: #212121;
   font-family: "Roboto", sans-serif;
   font-size: 14px;
   font-weight: 400;
@@ -140,7 +140,7 @@ body {
 }
 
 .btn:is(:hover, :focus) {
-  fill: var(--logo-color);
+  fill: #2196f3;
   -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -195,13 +195,13 @@ body {
 }
 
 .modal-input:is(:hover, :focus) {
-  border-color: var(--logo-color);
+  border-color: #2196f3;
   -webkit-transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-input:is(:hover, :focus) + .modal-svg {
-  fill: var(--logo-color);
+  fill: #2196f3;
   -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   -webkit-animation: rubberBand;
@@ -232,11 +232,11 @@ body {
 }
 
 .modal-input-checkbox {
-  background: var(--main-text-color);
+  background: #212121;
 }
 
 .modal-span:not(:last-child) {
-  color: var(--third-text-color);
+  color: #757575;
   font-size: 12px;
   line-height: 14px;
   letter-spacing: 1%;
@@ -244,12 +244,12 @@ body {
 }
 
 .modal-span:last-child {
-  color: var(--third-text-color);
+  color: #757575;
   letter-spacing: 3%;
 }
 
 .modal-span-link {
-  color: var(--logo-color);
+  color: #2196f3;
   text-decoration: underline;
 }
 
@@ -261,7 +261,7 @@ body {
 
 .modal-btn {
   margin: 0 auto;
-  color: var(--main-background-color);
+  color: #ffffff;
   font-size: 16px;
   font-weight: 700;
   line-height: 1.875;
@@ -271,7 +271,7 @@ body {
   border-radius: 4px;
   -webkit-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
           box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  background: var(--logo-color);
+  background: #2196f3;
 }
 
 .header {
@@ -472,9 +472,9 @@ body {
   margin: 0 auto;
   height: 600px;
   text-align: center;
-  background-color: var(--second-background-color);
-  background-image: -webkit-gradient(linear, left top, right top, from(var(--hero-overlay)), to(var(--hero-overlay))), url(../img/hero-background.jpg);
-  background-image: linear-gradient(to right, var(--hero-overlay), var(--hero-overlay)), url(../img/hero-background.jpg);
+  background-color: #2f303a;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../../img/hero-background.jpg);
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../img/hero-background.jpg);
   background-repeat: no-repeat;
   margin-bottom: 94px;
 }
@@ -516,7 +516,7 @@ body {
   cursor: pointer;
   background: #2196f3;
   border: none;
-  margin-top: 3px;
+  margin-top: 30px;
 }
 
 .information {
@@ -713,7 +713,7 @@ body {
 
 .team-social-media-item:is(:hover, :focus),
 .footer-social-media-item:is(:hover, :focus) {
-  background: var(--logo-color);
+  background: #2196f3;
   cursor: pointer;
   -webkit-transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -1017,8 +1017,8 @@ body {
 }
 
 .sorting-button:is(:focus, :hover) {
-  color: var(--main-background-color);
-  background: var(--logo-color);
+  color: #ffffff;
+  background: #2196f3;
   -webkit-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
           box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
   -webkit-animation: wobble;
