@@ -2,13 +2,13 @@
   margin: 0 auto;
   height: 600px;
   text-align: center;
-  background-color: $second-background-color;
+  // background-color: $second-background-color;
   background-image: linear-gradient(
       to right,
       $hero-overlay,
       $hero-overlay
     ),
-    url(../../img/hero-background.jpg);
+    url("../../img/hero-background.jpg");
   background-repeat: no-repeat;
   margin-bottom: 94px;
 }
